@@ -1,0 +1,8 @@
+ignore: '*.hidden.md'
+nav:
+- README.md
+- uspherecomponent.md
+- ucapsulecomponent.md
+- ustaticmeshcomponent.md
+- uskeletalmeshcomponent.md
+- "*"

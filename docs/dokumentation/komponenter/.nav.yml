@@ -1,0 +1,13 @@
+ignore: '*.hidden.md'
+nav:
+- README.md
+- uscenecomponent.md
+- UPrimitiveComponent: uprimitivecomponent
+- uspringarmcomponent.md
+- ucameracomponent.md
+- utextrendercomponent.md
+- uinputcomponent.md
+- upawnmovementcomponent.md
+- uprojectilemovementcomponent.md
+- uparticlesystemcomponent.md
+- "*"

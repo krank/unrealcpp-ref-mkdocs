@@ -1,0 +1,6 @@
+ignore: '*.hidden.md'
+nav:
+- README.md
+- kollisioner.md
+- position-och-rotation.md
+- "*"

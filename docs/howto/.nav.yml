@@ -1,0 +1,8 @@
+ignore: '*.hidden.md'
+nav:
+- setup.md
+- namngivning.md
+- andra-property-varden.md
+- Input: input
+- logging.md
+- "*"
