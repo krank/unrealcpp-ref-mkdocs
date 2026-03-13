@@ -1,0 +1,64 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run gitbook2mkdocs",
+      "type": "shell",
+      "command": ".venv/Scripts/activate&&python",
+      "args": [
+        "${workspaceFolder}/gitbook2mkdocs/gitbook2mkdocs.py",
+        "src",
+        "docs"
+      ]
+    },
+    {
+      "label": "Server",
+      "type": "shell",
+      "command": ".venv/Scripts/activate&&mkdocs",
+      "args": [
+        "serve"
+      ],
+      "isBackground": true,
+      "presentation": {
+        "reveal": "silent",
+        "panel": "new"
+      },
+      "problemMatcher": [
+        {
+          "base": "$tsc",
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "Building documentation",
+            "endsPattern": "Serving"
+          },
+        }
+      ]
+    },
+    {
+      "label": "Open browser",
+      "type": "shell",
+      "command": "start",
+      "args": [
+        "http://localhost:8000"
+      ],
+      "presentation": {
+        "reveal": "never",
+        "echo": false,
+        "focus": false,
+        "panel": "shared",
+        "close": true
+      }
+    },
+    {
+      "label": "Serve mkdocs & open browser",
+      "dependsOn": [
+        "Server",
+        "Open browser"
+      ],
+      "dependsOrder": "sequence",
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}

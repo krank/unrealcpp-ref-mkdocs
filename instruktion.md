@@ -12,6 +12,20 @@
 - Öppna ny terminal (Ctrl+ö)
   - Förhoppningsvis "Python virtual environment was successfully activated"
 - `pip install -r requirements.txt`
+- Ändra "site name" i mkdocs.yml
+### Med gitbook2mkdocs
+- Klona gitbook2mkdocs-repot till rotmappen
+
+## Publicera GH Pages
+### I custom subdomän
+- Lägg till en CNAME-fil
+  - med domänen (bara)
+  - i "extra" om siten ska byggas med gitbook2mkdocs
+  - i "docs" om siten byggs manuellt
+- Publicera till GitHub
+- Lägg till subdomän i Cloudflare
+  - CNAME record
+    - [username].github.io
 
 ## Använda
 - Live preview:
