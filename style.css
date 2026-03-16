@@ -1,0 +1,54 @@
+/* GENERAL */
+
+:root>* {
+  /* --md-default-fg-color--light: #000; */
+  --md-primary-fg-color--light: #861f4194;
+  --md-primary-fg-color--dark: #ac325a;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+.md-typeset {
+  font-size: .7rem;
+}
+
+/* HEADER */
+
+header.md-header--shadow {
+  box-shadow: none;
+  border-bottom:1px solid #ddd
+}
+
+/* NAV */
+
+.md-nav__item--section .md-nav__item {
+  padding-left: .4em !important;
+}
+
+.md-nav {
+  font-size: .7rem;
+}
+
+/* MAIN */
+
+.md-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 6rem;
+}
+
+body[data-md-color-scheme="default"] h1,
+body[data-md-color-scheme="default"] h2,
+body[data-md-color-scheme="default"] h3,
+body[data-md-color-scheme="default"] h4,
+body[data-md-color-scheme="default"] label.md-nav__title,
+body[data-md-color-scheme="default"] label.md-nav__link {
+  color: #000 !important;
+}
