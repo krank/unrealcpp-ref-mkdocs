@@ -1,8 +1,10 @@
-ignore: '*.hidden.md'
+ignore:
+- '*.hidden.md'
+- SUMMARY.md
 nav:
 - README.md
 - lankar.md
 - orientering.md
 - Howto: howto
-- Dokumentation: dokumentation/enhanced-input-system/uinputaction
+- Dokumentation: dokumentation
 - "*"

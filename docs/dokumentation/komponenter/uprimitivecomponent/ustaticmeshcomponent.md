@@ -1,6 +1,6 @@
 # UStaticMeshComponent
 
-En komponent som visar ett [UStaticMesh](../../datatyper/README.md#ustaticmesh) som ett objekt i spelvärlden. Ärver från [UPrimitiveComponent](./README.md).
+En komponent som visar ett [UStaticMesh](../../datatyper/ustaticmesh.md) som ett objekt i spelvärlden. Ärver från [UPrimitiveComponent](./README.md).
 
 ## SetStaticMesh()
 
