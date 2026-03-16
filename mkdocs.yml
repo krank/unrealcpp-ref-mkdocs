@@ -1,12 +1,12 @@
 site_name: Unreal C++ Snabbreferens
-site_url: https://csharp.progdocs.se
-repo_url: https://github.com/krank/csharp-ref-mkdocs
+site_url: https://unrealcpp.progdocs.se
+repo_url: https://github.com/krank/unrealxcpp-ref-mkdocs
 edit_uri: edit/main/docs/
 theme:
   name: material
   language: sv
   icon:
-    logo: material/language-csharp
+    logo: material/language-cpp
   font:
     text: Inter
     # code: IBM Plex Mono
