@@ -12,6 +12,14 @@
       ]
     },
     {
+      "label": "Deploy mkdocs",
+      "type": "shell",
+      "command": ".venv/Scripts/activate&&mkdocs",
+      "args": [
+        "gh-deploy"
+      ]
+    },
+    {
       "label": "Server",
       "type": "shell",
       "command": ".venv/Scripts/activate&&mkdocs",
