@@ -1,6 +1,6 @@
 site_name: Unreal C++ Snabbreferens
 site_url: https://unrealcpp.progdocs.se
-repo_url: https://github.com/krank/unrealxcpp-ref-mkdocs
+repo_url: https://github.com/krank/unrealcpp-ref-mkdocs
 edit_uri: edit/main/docs/
 theme:
   name: material
